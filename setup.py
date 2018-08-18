@@ -11,7 +11,8 @@ setup(
     url="https://github.com/dnvriend/click-blog",
     install_requires=[
         'click',
-        'boto3'
+        'boto3',
+        'txtable'
     ],
     entry_points='''
      [console_scripts]
