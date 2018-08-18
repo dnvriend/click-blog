@@ -18,6 +18,15 @@ run: ## runs buckets
 run-help: ## runs buckets and asks for help
 	pipenv run python buckets/buckets.py --help
 
+run-ls: ## print all buckets
+	pipenv run python buckets/buckets.py ls
+
+run-du: ## print bucket usage
+	pipenv run python buckets/buckets.py du
+
+run-count: ## count the number of buckets
+	pipenv run python buckets/buckets.py count
+
 dist: ## create a distribution
 	pipenv run python setup.py bdist_wheel
 
